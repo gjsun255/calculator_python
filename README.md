@@ -12,7 +12,7 @@ virtualenv myenv
 
 
 
-## 4.git-bash终端下，在本地仓库中激活python虚拟环境myenv(和linux中一样地操作):
+## 3.git-bash终端下，在本地仓库中激活python虚拟环境myenv(和linux中一样地操作):
 
 ```shell
  source ./myenv/Scripts/activate
@@ -20,7 +20,7 @@ virtualenv myenv
 
 
 
-## 5.git-bash终端下，在本地仓库中退出python虚拟环境(和linux中一样地操作): 
+## 4.git-bash终端下，在本地仓库中退出python虚拟环境(和linux中一样地操作): 
 
 ```shell
 deactivate
@@ -30,7 +30,7 @@ deactivate
 
 
 
-## 6.git-bash终端下，激活虚拟环境之后便可以按照requirements.txt安装python地包:
+## 5.git-bash终端下，激活虚拟环境之后便可以按照requirements.txt安装python地包:
 
 ```shell
 pip install -r requirements.txt
@@ -38,7 +38,7 @@ pip install -r requirements.txt
 
 
 
-## 7.git-bash终端下，运行calculator.py：
+## 6.git-bash终端下，运行calculator.py：
 
 ## 激活虚拟环境并且安装了必须的python package之后：python calculator.py即可使用这个计算器
 
