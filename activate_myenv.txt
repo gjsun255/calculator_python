@@ -1,0 +1,5 @@
+# 在git-bash中激活
+$ source ~/GitTest/myenv/Scripts/activate
+
+# 在cmd.exe中激活
+$ ~/Gittest/myenv/Scripts/activate
